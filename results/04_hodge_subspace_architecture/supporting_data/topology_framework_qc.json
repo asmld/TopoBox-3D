@@ -1,0 +1,140 @@
+{
+  "controlled_probe_rows": 286,
+  "models": 6,
+  "tasks": 6,
+  "splits": [
+    "test_iid",
+    "test_ood"
+  ],
+  "median_pure_harmonic_ood_identity_by_model": {
+    "GAOT": 0.5880817845463753,
+    "GNOT": 0.2126634567975998,
+    "MGN-lite": 0.18710112571716303,
+    "RIGNO": 0.1649591345340013,
+    "TNO": 0.3493354544043541,
+    "Transolver": 0.32935284823179245
+  },
+  "tno_has_hard_kernel_identity_guarantee": false,
+  "pressure_validation": {
+    "model-task:overall_ood_error:kernel_shift_pressure": {
+      "n": 72,
+      "spearman_rho": 0.3581955953598434,
+      "p_value": 0.0020056042646204785
+    },
+    "model-task:overall_ood_error:positive_spectrum_load": {
+      "n": 72,
+      "spearman_rho": 0.7457210543146185,
+      "p_value": 5.695810086863854e-14
+    },
+    "model-task:overall_ood_error:spectrum_shift_pressure": {
+      "n": 72,
+      "spearman_rho": 0.5192169957611129,
+      "p_value": 2.9671369473129315e-06
+    },
+    "model-task:overall_ood_iid_ratio:kernel_shift_pressure": {
+      "n": 72,
+      "spearman_rho": -0.07852615357840022,
+      "p_value": 0.5120373805815653
+    },
+    "model-task:overall_ood_iid_ratio:positive_spectrum_load": {
+      "n": 72,
+      "spearman_rho": 0.11131609715236387,
+      "p_value": 0.3518975893900139
+    },
+    "model-task:overall_ood_iid_ratio:spectrum_shift_pressure": {
+      "n": 72,
+      "spearman_rho": 0.3862184588155929,
+      "p_value": 0.000805646903652794
+    },
+    "task:overall_ood_error:kernel_shift_pressure": {
+      "n": 12,
+      "spearman_rho": 0.4328342440242318,
+      "p_value": 0.15989040875279195
+    },
+    "task:overall_ood_error:positive_spectrum_load": {
+      "n": 12,
+      "spearman_rho": 0.9090909090909092,
+      "p_value": 4.191044653034233e-05
+    },
+    "task:overall_ood_error:spectrum_shift_pressure": {
+      "n": 12,
+      "spearman_rho": 0.6993006993006995,
+      "p_value": 0.01137419864269093
+    },
+    "task:overall_ood_iid_ratio:kernel_shift_pressure": {
+      "n": 12,
+      "spearman_rho": -0.11346140377334234,
+      "p_value": 0.7255161258464305
+    },
+    "task:overall_ood_iid_ratio:positive_spectrum_load": {
+      "n": 12,
+      "spearman_rho": 0.1958041958041958,
+      "p_value": 0.5419358857313173
+    },
+    "task:overall_ood_iid_ratio:spectrum_shift_pressure": {
+      "n": 12,
+      "spearman_rho": 0.6083916083916086,
+      "p_value": 0.035805997052029234
+    },
+    "model-task-component:harmonic_relative_ood_error:kernel_shift_pressure": {
+      "n": 36,
+      "spearman_rho": 0.09808694929015593,
+      "p_value": 0.5692699313329463
+    },
+    "model-task-component:harmonic_relative_ood_error:positive_spectrum_load": {
+      "n": 36,
+      "spearman_rho": 0.30531240499566353,
+      "p_value": 0.07018193949571531
+    },
+    "model-task-component:harmonic_relative_ood_error:spectrum_shift_pressure": {
+      "n": 36,
+      "spearman_rho": 0.2865239493036227,
+      "p_value": 0.09022710824480967
+    },
+    "model-task-component:harmonic_relative_ood_iid_ratio:kernel_shift_pressure": {
+      "n": 36,
+      "spearman_rho": 0.14797600108428696,
+      "p_value": 0.3890850679340815
+    },
+    "model-task-component:harmonic_relative_ood_iid_ratio:positive_spectrum_load": {
+      "n": 36,
+      "spearman_rho": 0.12682207592127562,
+      "p_value": 0.461084762295488
+    },
+    "model-task-component:harmonic_relative_ood_iid_ratio:spectrum_shift_pressure": {
+      "n": 36,
+      "spearman_rho": 0.14404482697231305,
+      "p_value": 0.4019457490760642
+    },
+    "model-task-component:nonharmonic_relative_ood_error:kernel_shift_pressure": {
+      "n": 36,
+      "spearman_rho": -0.0963957949920498,
+      "p_value": 0.5759788084340656
+    },
+    "model-task-component:nonharmonic_relative_ood_error:positive_spectrum_load": {
+      "n": 36,
+      "spearman_rho": 0.6513331306574155,
+      "p_value": 1.69142486644782e-05
+    },
+    "model-task-component:nonharmonic_relative_ood_error:spectrum_shift_pressure": {
+      "n": 36,
+      "spearman_rho": 0.3820319324048303,
+      "p_value": 0.021488813964884366
+    },
+    "model-task-component:nonharmonic_relative_ood_iid_ratio:kernel_shift_pressure": {
+      "n": 36,
+      "spearman_rho": 0.5039639808356288,
+      "p_value": 0.001726012102308011
+    },
+    "model-task-component:nonharmonic_relative_ood_iid_ratio:positive_spectrum_load": {
+      "n": 36,
+      "spearman_rho": 0.5166825315311229,
+      "p_value": 0.00125416154061631
+    },
+    "model-task-component:nonharmonic_relative_ood_iid_ratio:spectrum_shift_pressure": {
+      "n": 36,
+      "spearman_rho": 0.8000750715527388,
+      "p_value": 4.764373698496573e-09
+    }
+  }
+}

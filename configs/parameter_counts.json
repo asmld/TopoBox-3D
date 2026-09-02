@@ -1,0 +1,75 @@
+{
+  "target": 1170000,
+  "counts": {
+    "k0": {
+      "mgn-lite": 1162241,
+      "transolver": 1210033,
+      "gnot": 1134249,
+      "gaot": 1185645,
+      "tno": 1167563,
+      "rigno": 1197059
+    },
+    "k1": {
+      "mgn-lite": 1162881,
+      "transolver": 1211569,
+      "gnot": 1135017,
+      "gaot": 1186102,
+      "tno": 1167563,
+      "rigno": 1198083
+    },
+    "k2": {
+      "mgn-lite": 1162881,
+      "transolver": 1211569,
+      "gnot": 1135017,
+      "gaot": 1186102,
+      "tno": 1167563,
+      "rigno": 1198083
+    }
+  },
+  "minimum": 1134249,
+  "maximum": 1211569,
+  "max_over_min": 1.0681684533113982,
+  "configs": {
+    "mgn-lite": {
+      "width": 160,
+      "layers": 6
+    },
+    "rigno": {
+      "node_latent_size": 128,
+      "edge_latent_size": 128,
+      "processor_steps": 7,
+      "mlp_hidden_layers": 1
+    },
+    "transolver": {
+      "n_hidden": 192,
+      "n_layers": 6,
+      "n_head": 8,
+      "slice_num": 32
+    },
+    "gnot": {
+      "n_hidden": 96,
+      "n_layers": 4,
+      "n_head": 8,
+      "n_experts": 2,
+      "n_inner": 2
+    },
+    "gaot": {
+      "magno_hidden": 48,
+      "lifting_channels": 18,
+      "transformer_hidden": 128,
+      "transformer_layers": 4,
+      "n_head": 8,
+      "radius": 0.2,
+      "latent_tokens_size": [
+        8,
+        4,
+        4
+      ]
+    },
+    "tno": {
+      "width": 170,
+      "layers": 4,
+      "use_harmonic": true
+    }
+  }
+}

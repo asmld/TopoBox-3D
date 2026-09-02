@@ -1,0 +1,7 @@
+model,A-k0,B-k0,C-k0,D-k0,A-k1,B-k1,C-k1,D-k1,A-k2,B-k2,C-k2,D-k2
+MGN-lite,baseline,greater,greater,greater,baseline,greater,greater,greater,baseline,less,less,less
+RIGNO,baseline,greater,greater,greater,baseline,greater,greater,greater,baseline,greater,greater,greater
+Transolver,baseline,greater,less,greater,baseline,greater,greater,greater,baseline,greater,greater,less
+GNOT,baseline,greater,greater,greater,baseline,greater,greater,greater,baseline,greater,greater,greater
+GAOT,baseline,less,less,less,baseline,greater,greater,greater,baseline,greater,greater,greater
+TNO,baseline,greater,greater,greater,baseline,less,greater,less,baseline,greater,less,less

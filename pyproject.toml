@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "topobox3d"
+version = "0.1.0"
+description = "Controlled topology generalization benchmark for 3D neural PDE operators"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "numpy>=1.26,<2.0",
+  "scipy>=1.13,<1.14",
+  "h5py>=3.11,<4",
+]
+
+[project.optional-dependencies]
+data = ["gmsh>=4.15,<5", "meshio>=5.3,<6"]
+analysis = ["pandas>=2.2,<3", "matplotlib>=3.9,<4"]
+visualization = ["matplotlib>=3.9,<4", "pyvista>=0.47,<0.48", "vtk==9.3.1"]
+test = ["pytest>=8,<9"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["topobox3d*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

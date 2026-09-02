@@ -1,0 +1,9 @@
+{
+  "rows": 115200,
+  "model_task_cells": 72,
+  "minimum_jensen_gap": 0.0004327776110579773,
+  "nonnegative_jensen_gap": true,
+  "median_rho_J_error": 0.5033861883344486,
+  "median_partial_rho_J_error_given_R": 0.008868947550013002,
+  "median_delta_rank_R2_J_over_R": 0.010043778112609147
+}

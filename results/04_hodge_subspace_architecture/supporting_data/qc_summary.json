@@ -1,0 +1,42 @@
+{
+  "raw_seed_rows": 345600,
+  "seed_median_rows": 115200,
+  "maximum_rho_H_alignment_error": 0.0,
+  "median_orthogonal_reconstruction_relative_error": 6.410551109677582e-08,
+  "ood_cells_harmonic_easier_fraction_median": 0.9875,
+  "median_paired_EH_over_EN_ood": 0.21022298198606007,
+  "harmonic_more_topology_sensitive_cells": 27,
+  "harmonic_significantly_more_sensitive_cells": 23,
+  "topology_target_harmonic_more_sensitive_cells": 16,
+  "topology_target_cells": 24,
+  "median_topology_target_harmonic_over_nonharmonic_degradation": 1.141822891468283,
+  "valid_model_task_cells": 36,
+  "median_harmonic_error_energy_share_ood": 0.3237978286062528,
+  "median_positive_dimension_leakage_ratio_ood_iid": 1.3727265850669115,
+  "median_leakage_per_sqrt_dimension_ratio_ood_iid": 0.9942865458519987,
+  "task_type_winners": [
+    {
+      "task_type": "higher_order_zero_harmonic",
+      "model": "GNOT",
+      "wins": 1
+    },
+    {
+      "task_type": "higher_order_zero_harmonic",
+      "model": "MGN-lite",
+      "wins": 1
+    },
+    {
+      "task_type": "nontrivial_harmonic_subspace",
+      "model": "TNO",
+      "wins": 6
+    },
+    {
+      "task_type": "scalar_local_diffusion",
+      "model": "MGN-lite",
+      "wins": 4
+    }
+  ],
+  "median_cross_model_spearman_overall_loss_vs_harmonic_error": 0.942857142857143,
+  "median_cross_model_spearman_overall_loss_vs_nonharmonic_error": 0.6857142857142857,
+  "median_cross_model_spearman_overall_loss_vs_pure_nonharmonic_leakage": -0.17142857142857146
+}

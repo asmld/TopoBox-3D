@@ -1,0 +1,10 @@
+{
+  "raw_seed_rows": 345600,
+  "analysis_rows": 115200,
+  "regression_rows": 1512,
+  "pooled_regression_rows": 504,
+  "scatter_figures_expected": 504,
+  "finite_E_final": true,
+  "positive_E_final": true,
+  "seed_count": 3
+}

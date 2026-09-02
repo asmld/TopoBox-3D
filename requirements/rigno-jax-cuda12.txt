@@ -1,0 +1,12 @@
+-e .[data,analysis,test]
+jax[cuda12]==0.4.38
+flax==0.10.2
+optax==0.2.4
+orbax-checkpoint==0.11.5
+jraph==0.0.6.dev0
+xarray==2024.11.0
+netCDF4==1.7.2
+absl-py
+configmypy==0.2.0
+zencfg==0.7.0
+toml==0.10.2
